@@ -19,7 +19,8 @@ function moveTheCube() {
     cube.style.backgroundColor = colors[getRandomInt(0, colors.length - 1)]
     cube.style.fontWeight = fontWeights[getRandomInt(0, fontWeights.length - 1)]
     cube.style.color = colors[getRandomInt(0, colors.length - 1)]
-    
+    cube.style.opacity = Math.random()
+
     positionX = getRandomInt(1, 200);  
     positionY = getRandomInt(1, 200);  
     cube.style.transform = `translate(${positionX}px, ${positionY}px)`;
