@@ -20,4 +20,11 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 600;
 }
